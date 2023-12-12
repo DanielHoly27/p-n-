@@ -1,0 +1,70 @@
+.obrazky{
+    display: flex;
+    flex-direction: row;
+}
+
+.obrazky img{
+    width: 50px;
+}
+
+header{
+    background-color: red;
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img{
+    width: 50px;
+}
+
+body{
+    margin: 0;
+}
+main{
+    height: 600px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.obrazky{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 36px;
+    padding: 36px;
+    color: white;
+    background-color: rgb(104, 101, 101);
+
+}
+
+.nav{
+    display: flex;
+    size: 25px;
+    gap: 15px;
+}
+
+.odkazy a{
+    color: white;
+    text-decoration: none;
+}
+
+.odkazy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+
