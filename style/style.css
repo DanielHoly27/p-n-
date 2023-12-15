@@ -8,7 +8,7 @@
 }
 
 header{
-    background-color: red;
+    background-color: rgb(107, 99, 99);
     margin: 0;
     padding: 16px;
     display: flex;
@@ -68,3 +68,17 @@ footer{
     gap: 16px;
 }
 
+.cara{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid white;
+    width: 1000px;
+    margin: auto;
+}
+
+.txt{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px; 
+}
